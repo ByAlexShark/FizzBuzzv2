@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-05T03:20:39.000Z",
+      "message": "Primera implementación: Devuelve 'Fizz' si es múltiplo de 3",
+      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/HEAD"
+    },
+    "stats": {
+      "total": 2101,
+      "additions": 1056,
+      "deletions": 1045,
+      "date": "2025-09-05"
+    },
+    "coverage": 80,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
