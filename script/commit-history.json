@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "9a910907d29f299b5b39c6ceca471093647f9d4b",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-05T03:20:39.000Z",
       "message": "Primera implementación: Devuelve 'Fizz' si es múltiplo de 3",
-      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/9a910907d29f299b5b39c6ceca471093647f9d4b"
     },
     "stats": {
       "total": 2101,
@@ -15,6 +15,25 @@
     },
     "coverage": 80,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-05T03:24:15.000Z",
+      "message": "Implementación de FizzBuzz: reglas de Fizz, Buzz y FizzBuzz",
+      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 27,
+      "deletions": 0,
+      "date": "2025-09-05"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
