@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz</title>
+</head>
+<body>
+  <h1>Juego FizzBuzz</h1>
+  
+  <div id="fizzbuzz-output">
+    <!-- Aquí se mostrará el resultado de la secuencia FizzBuzz -->
+  </div>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+  <label for="numberInput">Ingresa un número:</label>
+  <input type="number" id="numberInput" placeholder="Número máximo" min="1">
+  <button id="startButton">Iniciar FizzBuzz</button>
+
+  <script src="src/fizzbuzz.js"></script>
+
+  <script>
+    // Función para generar la secuencia FizzBuzz hasta un número dado
+    function generateFizzBuzz(limit) {
+      const result = [];
+      for (let i = 1; i <= limit; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          result.push('FizzBuzz');
+        } else if (i % 3 === 0) {
+          result.push('Fizz');
+        } else if (i % 5 === 0) {
+          result.push('Buzz');
+        } else {
+          result.push(i);
+        }
+      }
+      return result.join(', ');
+    }
+
+    // Interacción con el usuario
+    document.getElementById('startButton').addEventListener('click', () => {
+      const inputNumber = document.getElementById('numberInput').value;
+      if (inputNumber && inputNumber > 0) {
+        const output = generateFizzBuzz(inputNumber);
+        document.getElementById('fizzbuzz-output').textContent = output;
+      } else {
+        document.getElementById('fizzbuzz-output').textContent = 'Por favor ingresa un número válido.';
+      }
+    });
+  </script>
+</body>
 </html>
