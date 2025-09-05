@@ -16,11 +16,13 @@ describe('FizzBuzz Tests', () => {
 
   test('Devuelve "FizzBuzz" si es múltiplo de 3 y 5', () => {
     expect(fizzBuzz(15)).toBe('FizzBuzz');
+    expect(fizzBuzz(30)).toBe('FizzBuzz');
+    expect(fizzBuzz(45)).toBe('FizzBuzz');
   });
 
   test('Devuelve el número mismo si no es múltiplo de 3 ni de 5', () => {
     expect(fizzBuzz(1)).toBe(1);
     expect(fizzBuzz(2)).toBe(2);
+    expect(fizzBuzz(7)).toBe(7);
   });
-
 });

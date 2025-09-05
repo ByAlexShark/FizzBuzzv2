@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fad8d695dee8d8f4a0731ae65f118c1ae32d223d",
     "author": "ByAlexShark",
     "commit": {
       "date": "2025-09-05T03:24:15.000Z",
       "message": "Implementación de FizzBuzz: reglas de Fizz, Buzz y FizzBuzz",
-      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/HEAD"
+      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/fad8d695dee8d8f4a0731ae65f118c1ae32d223d"
     },
     "stats": {
       "total": 27,
       "additions": 27,
       "deletions": 0,
+      "date": "2025-09-05"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ByAlexShark",
+    "commit": {
+      "date": "2025-09-05T03:27:17.000Z",
+      "message": "Implementación de FizzBuzz: reglas de Fizz, Buzz y FizzBuzz",
+      "url": "https://github.com/ByAlexShark/FizzBuzzv2/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
       "date": "2025-09-05"
     },
     "coverage": 100,
